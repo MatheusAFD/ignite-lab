@@ -33,7 +33,6 @@ export function Sidebar() {
       </span>
       <div className="flex flex-col gap-8">
         {data?.lessons.map((lesson) => {
-          console.log(lesson);
           return (
             <Lesson
               key={lesson.id}
